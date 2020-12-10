@@ -794,7 +794,7 @@ namespace Microsoft.EntityFrameworkCore.Migrations
                 
                 builder
                     .Append(" DEFAULT ")
-                    .Append(defaultValue);
+                    .Append((string)defaultValue);
             }
         }
 
